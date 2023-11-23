@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(imgs/viegoback.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(34, 32, 32);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logo{
+    height: 80px;
+    width: 180px;
+}
+
+ul , a {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: 19px;
+    color: rgb(206, 216, 216);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+article{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+h1{
+    font-size: 50px;
+    line-height: 10px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    transition: background-color 0.400s ease;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    max-width: 500px;
+    line-height: 20px;
+    font-size 14px;
+    line-height 19.6px;   
+    text-align: justify;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+}
+input{
+    border-radius: 30px;
+    border-style: none;
+    height: 40px;
+    margin-top: 15px; 
+    font-size: 15px;
+    padding-left: 15px;
+}
+.botao{
+    background-color: rgb(138, 108, 60);
+    cursor: pointer;
+    padding: 0px;
+    font-size: 19px;
+    font-weight: bolder;
+    color: rgb(206, 216, 216);
+}
+
+.viego{
+    border-radius: 10% 30% 50% 70%; 
+}
+
+ .anima:hover{
+        color: rgb(138, 108, 60);
+      }
